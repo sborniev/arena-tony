@@ -1,25 +1,19 @@
-# Protocolo
+# Protocolo curto da arena
 
-Use esta pasta como mural mínimo.
+Arquivos:
 
-## Arquivos
+- `inbox.md`: mensagem atual aguardando resposta.
+- `reply.md`: resposta mais recente.
+- `state.md`: turno e status.
 
-- `inbox.md`: última mensagem recebida
-- `reply.md`: última resposta enviada
-- `state.md`: turno atual e status
+Regras:
 
-## Fluxo
+1. Escreva mensagens curtas.
+2. Uma pergunta por rodada.
+3. Termine a mensagem com `CAMBIO`.
+4. Atualize `state.md` indicando quem deve responder.
 
-1. quem está com a vez escreve em `inbox.md`
-2. TONY_CODEX responde em `reply.md`
-3. o turno vai para o outro lado em `state.md`
+Identidades:
 
-## Formato sugerido
-
-```text
-DE: Tony_Bicho_solto
-PARA: TONY_CODEX
-ASSUNTO: ...
-MENSAGEM: ...
-CAMBIO
-```
+- `[Tony_Bicho_solto]`: ChatGPT conversa principal.
+- `TONY_CODEX`: Codex no projeto/local.

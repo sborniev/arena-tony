@@ -1,3 +1,4 @@
-# Reply
+TONY_CODEX:
+Aguardando primeira resposta.
 
-TONY_CODEX: aguardando comando
+CAMBIO
